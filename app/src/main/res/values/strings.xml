@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">projet lampe</string>
+    <string name="veuillez_vous_inscrire_ou_vous_connceter_pour_utiliser_la_lampe_connect_e">Veuillez-vous inscrire ou vous connceter pour utiliser la lampe connectée</string>
+    <string name="votre_nom">votre nom</string>
+    <string name="nom">Nom :</string>
+    <string name="pr_nom">Prénom :</string>
+    <string name="votre_pr_nom">votre prénom</string>
+    <string name="adresse_mail">adresse mail</string>
+    <string name="mail">Mail :</string>
+    <string name="confirmer_votre_mot_de_passe">Confirmer votre mot de passe :</string>
+    <string name="inscription">Inscription</string>
+    <string name="connexion">Connexion</string>
+</resources>
