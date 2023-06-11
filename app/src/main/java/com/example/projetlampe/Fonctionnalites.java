@@ -16,4 +16,11 @@ public class Fonctionnalites extends AppCompatActivity {
         setContentView(R.layout.fonctionnalite);
     }
 
+    public void sendMessage5(View view) {
+        Intent intent = new Intent(this, Connexion.class);
+        Button editText = (Button) findViewById(R.id.button6);
+        String message = editText.getText().toString();
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
 }

@@ -19,7 +19,7 @@
     <string name="mode_de_la_lampe">Mode de la lampe :</string>
     <string name="fonctionnalit_s">Fonctionnalités</string>
     <string name="d_connexion">Déconnexion</string>
-    <string name="r_gler_l_intensit">Régler l\'intensité :</string>
+    <string name="r_glez_l_intensit">Réglez l\'intensité :</string>
     <string name="programmation">Programmation :</string>
     <string name="jusqu"><![CDATA[Jusqu\'à  :]]></string>
     <string name="energie">Energie :</string>
@@ -28,4 +28,12 @@
     <string name="travail">Travail :</string>
     <string name="dormir">Dormir :</string>
     <string name="soleil">Soleil:</string>
+    <string name="date">Laisser vide si indertéminé:</string>
+    <string name="utilisation">Utilisation:</string>
+    <string name="Utilisation">utilisation</string>
+    <string name="Couleur">Choisissez la couleur de la lampe : </string>
+    <string name="choisissez_une_couleur">Choisissez une couleur</string>
+    <string name="votre_couleur_choisie_est">Votre couleur choisie est :</string>
+    <string name="set_color">Set Color</string>
+    <string name="la_couleur_choisie_est">La couleur choisie est :</string>
 </resources>
