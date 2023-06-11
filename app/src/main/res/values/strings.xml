@@ -10,4 +10,22 @@
     <string name="confirmer_votre_mot_de_passe">Confirmer votre mot de passe :</string>
     <string name="inscription">Inscription</string>
     <string name="connexion">Connexion</string>
+    <string name="vendredi">vendredi</string>
+    <string name="jeudi">jeudi</string>
+    <string name="mercredi">mercredi</string>
+    <string name="mardi">mardi</string>
+    <string name="lundi">lundi</string>
+    <string name="tous_les_jours">Tous les jours</string>
+    <string name="mode_de_la_lampe">Mode de la lampe :</string>
+    <string name="fonctionnalit_s">Fonctionnalités</string>
+    <string name="d_connexion">Déconnexion</string>
+    <string name="r_gler_l_intensit">Régler l\'intensité :</string>
+    <string name="programmation">Programmation :</string>
+    <string name="jusqu"><![CDATA[Jusqu\'à  :]]></string>
+    <string name="energie">Energie :</string>
+    <string name="compte">Compte :</string>
+    <string name="contact">Contact :</string>
+    <string name="travail">Travail :</string>
+    <string name="dormir">Dormir :</string>
+    <string name="soleil">Soleil:</string>
 </resources>
