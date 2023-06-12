@@ -40,7 +40,7 @@
             android:layout_marginEnd="150dp"
             android:layout_marginBottom="50dp"
             android:layout_weight="1"
-            android:onClick="sendMessage5"
+            android:onClick="sendMessage6"
             android:text="@string/d_connexion" />
 
     </LinearLayout>
@@ -69,15 +69,15 @@
             android:textSize="16sp" />
 
 
-            <CheckBox
-                android:id="@+id/checkBox11"
-                android:layout_width="wrap_content"
-                android:layout_height="33dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginBottom="5dp"
-                android:minHeight="48dp"
-                android:text="@string/lundi" />
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:minHeight="48dp"
+            android:text="@string/lundi" />
 
             <CheckBox
                 android:id="@+id/checkBox12"
@@ -140,64 +140,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
+            android:layout_marginBottom="-20dp"
             android:ems="10"
             android:inputType="date" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageButton
-                    android:id="@+id/imageButton14"
-                    android:layout_width="10dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="230dp"
-                    android:layout_weight="1"
-                    android:background="#FFFFFF"
-                    android:contentDescription="@string/fonctionnalit_s"
-                    app:srcCompat="@drawable/iconeampoule"
-                    tools:ignore="SpeakableTextPresentCheck" />
-
-                <ImageButton
-                    android:id="@+id/imageButton15"
-                    android:layout_width="10dp"
-                    android:layout_height="132dp"
-                    android:layout_marginTop="200dp"
-                    android:layout_weight="1"
-                    android:background="#FFFFFF"
-                    android:contentDescription="@string/energie"
-                    app:srcCompat="@drawable/iconnegreeneco"
-                    tools:ignore="SpeakableTextPresentCheck" />
-
-                <ImageButton
-                    android:id="@+id/imageButton16"
-                    android:layout_width="10dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="230dp"
-                    android:layout_weight="1"
-                    android:background="#FFFFFF"
-                    android:contentDescription="@string/compte"
-                    app:srcCompat="@drawable/iconecompte"
-                    tools:ignore="SpeakableTextPresentCheck" />
-
-                <ImageButton
-                    android:id="@+id/imageButton17"
-                    android:layout_width="10dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="230dp"
-                    android:layout_weight="1"
-                    android:background="#FFFFFF"
-                    android:contentDescription="@string/contact"
-                    app:srcCompat="@drawable/contact"
-                    tools:ignore="SpeakableTextPresentCheck" />
-            </LinearLayout>
+                android:orientation="horizontal"/>
 
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-        </LinearLayout>
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="292dp"
+            android:layout_marginStart="60dp" />
+
+
+    </LinearLayout>
 
 
 </android.support.constraint.ConstraintLayout>

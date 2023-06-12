@@ -18,7 +18,7 @@ public class Fonctionnalites extends AppCompatActivity {
 
     public void sendMessage5(View view) {
         Intent intent = new Intent(this, Connexion.class);
-        Button editText = (Button) findViewById(R.id.button6);
+        Button editText = (Button) findViewById(R.id.button7);
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
