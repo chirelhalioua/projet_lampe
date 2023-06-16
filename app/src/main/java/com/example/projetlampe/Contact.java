@@ -15,4 +15,12 @@ public class Contact extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.contact);
     }
+
+    public void sendMessage8(View view) {
+        Intent intent = new Intent(this, Connexion.class);
+        Button editText = (Button) findViewById(R.id.button8);
+        String message = editText.getText().toString();
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
 }

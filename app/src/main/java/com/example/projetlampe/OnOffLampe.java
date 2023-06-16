@@ -15,4 +15,12 @@ public class OnOffLampe extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.onofflampe);
     }
+
+    public void sendMessage10(View view) {
+        Intent intent = new Intent(this, Connexion.class);
+        Button editText = (Button) findViewById(R.id.button7);
+        String message = editText.getText().toString();
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
 }
