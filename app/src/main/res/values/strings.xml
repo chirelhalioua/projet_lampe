@@ -45,7 +45,6 @@
     <string name="votre_message">votre message</string>
     <string name="envoyer">Envoyer</string>
     <string name="message">Message* :</string>
-    <string name="NumView">Numéro</string>
     <string name="mailEdit">mail</string>
     <string name="mailView">Mail</string>
     <string name="deconexion">Deconexion</string>
@@ -54,6 +53,7 @@
     <string name="besoin_d_aide_concernant_l_utilisation_de_la_lampe_contactez_nous">Besoin d\'aide concernant l\'utilisation de la lampe ? Contactez-nous :</string>
     <string name="prenomView">Prénom* :</string>
     <string name="prenomEdit">prénom</string>
-    <string name="numEdit">Numéro </string>
-    <string name="numView">Numéro :  </string>
+    <string name="numEdit">Numéro</string>
+    <string name="numView">Numéro* :</string>
+
 </resources>
