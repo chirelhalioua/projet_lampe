@@ -18,9 +18,29 @@ public class CompteUser extends AppCompatActivity {
 
     public void sendMessage7(View view) {
         Intent intent = new Intent(this, Connexion.class);
-        Button editText = (Button) findViewById(R.id.button9);
+        Button editText = findViewById(R.id.button9);
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
+
+    public void sendMessage19(View view) {
+        Intent intent = new Intent(this, Fonctionnalites.class);
+        startActivity(intent);
+    }
+
+    public void sendMessage20(View view) {
+        Intent intent = new Intent(this, EconomieEnergie.class);
+        startActivity(intent);
+    }
+
+    public void sendMessage21(View view) {
+        Intent intent = new Intent(this, CompteUser.class);
+        startActivity(intent);
+    }
+
+    public void sendMessage22(View view) {
+        Intent intent = new Intent(this, Contact.class);
         startActivity(intent);
     }
 }

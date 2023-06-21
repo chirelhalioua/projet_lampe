@@ -55,5 +55,6 @@
     <string name="prenomEdit">prénom</string>
     <string name="numEdit">Numéro</string>
     <string name="numView">Numéro* :</string>
+    <string name="votre_profil_vue">Votre Profil</string>
 
 </resources>

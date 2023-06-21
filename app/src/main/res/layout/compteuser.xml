@@ -9,6 +9,7 @@
         android:id="@+id/linearLayout2"
         android:layout_width="413dp"
         android:layout_height="87dp"
+        android:background="#F5F5F5"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -23,10 +24,11 @@
 
         <TextView
             android:id="@+id/textView12"
-            android:layout_width="wrap_content"
+            android:layout_width="14dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
-            android:text="      Votre Profil"
+            android:text="@string/votre_profil_vue"
             android:textSize="20sp" />
 
         <Button
@@ -40,6 +42,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/margin"
         android:layout_width="409dp"
         android:layout_height="641dp"
         android:layout_marginStart="1dp"
@@ -159,11 +162,12 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="113dp" />
+            android:layout_height="67dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="116dp"
+            android:layout_height="227dp"
+            android:layout_marginBottom="10dp"
             android:orientation="horizontal">
 
             <ImageButton
@@ -174,6 +178,8 @@
                 android:layout_weight="1"
                 android:background="#FFFFFF"
                 android:contentDescription="@string/fonctionnalit_s"
+                android:maxHeight="100dp"
+                android:onClick="sendMessage19"
                 app:srcCompat="@drawable/iconeampoule"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -184,6 +190,7 @@
                 android:layout_weight="1"
                 android:background="#FFFFFF"
                 android:contentDescription="@string/energie"
+                android:onClick="sendMessage20"
                 app:srcCompat="@drawable/iconnegreeneco"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -194,16 +201,18 @@
                 android:layout_weight="1"
                 android:background="#FFFFFF"
                 android:contentDescription="@string/compte"
+                android:onClick="sendMessage21"
                 app:srcCompat="@drawable/iconecompte"
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageButton
                 android:id="@+id/imageButton4"
-                android:layout_width="96dp"
+                android:layout_width="wrap_content"
                 android:layout_height="121dp"
                 android:layout_weight="1"
                 android:background="#FFFFFF"
                 android:contentDescription="@string/contact"
+                android:onClick="sendMessage22"
                 app:srcCompat="@drawable/contact"
                 tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>

@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageButton;
 
 public class Fonctionnalites extends AppCompatActivity {
 
@@ -18,9 +20,31 @@ public class Fonctionnalites extends AppCompatActivity {
 
     public void sendMessage5(View view) {
         Intent intent = new Intent(this, Connexion.class);
-        Button editText = (Button) findViewById(R.id.button7);
+        Button editText = findViewById(R.id.button7);
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
+
+
+    public void sendMessage11(View view) {
+        Intent intent = new Intent(this, Fonctionnalites.class);
+        startActivity(intent);
+    }
+
+    public void sendMessage12(View view) {
+        Intent intent = new Intent(this, EconomieEnergie.class);
+        startActivity(intent);
+    }
+
+    public void sendMessage13(View view) {
+        Intent intent = new Intent(this, CompteUser.class);
+        startActivity(intent);
+    }
+
+    public void sendMessage14(View view) {
+        Intent intent = new Intent(this, Contact.class);
+        startActivity(intent);
+    }
+
 }

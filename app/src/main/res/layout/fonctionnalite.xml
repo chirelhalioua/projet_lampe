@@ -9,6 +9,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="485dp"
         android:layout_height="74dp"
+        android:background="#F5F5F5"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -160,6 +161,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="227dp"
                 android:layout_marginBottom="10dp"
+                android:layout_marginStart="5dp"
                 android:orientation="horizontal">
 
                 <ImageButton
@@ -170,7 +172,9 @@
                     android:layout_weight="1"
                     android:background="#FFFFFF"
                     android:contentDescription="@string/fonctionnalit_s"
+                    android:onClick="sendMessage11"
                     app:srcCompat="@drawable/iconeampoule"
+                    android:tag="1"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <ImageButton
@@ -180,26 +184,30 @@
                     android:layout_weight="1"
                     android:background="#FFFFFF"
                     android:contentDescription="@string/energie"
+                    android:onClick="sendMessage12"
+                    android:tag="2"
                     app:srcCompat="@drawable/iconnegreeneco"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <ImageButton
                     android:id="@+id/imageButton16"
-                    android:layout_width="100dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="116dp"
                     android:layout_weight="1"
                     android:background="#FFFFFF"
                     android:contentDescription="@string/compte"
+                    android:onClick="sendMessage13"
                     app:srcCompat="@drawable/iconecompte"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <ImageButton
                     android:id="@+id/imageButton17"
-                    android:layout_width="wrap_content"
+                    android:layout_width="135dp"
                     android:layout_height="121dp"
                     android:layout_weight="1"
                     android:background="#FFFFFF"
                     android:contentDescription="@string/contact"
+                    android:onClick="sendMessage14"
                     app:srcCompat="@drawable/contact"
                     tools:ignore="SpeakableTextPresentCheck" />
             </LinearLayout>

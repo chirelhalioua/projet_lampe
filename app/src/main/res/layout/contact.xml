@@ -5,21 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/numView"
-        android:textColor="#000000" />
-
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="408dp"
         android:layout_height="59dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
+        android:background="#F5F5F5"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,6 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
+            android:layout_marginTop="-10dp"
             android:text="@string/besoin_d_aide_concernant_l_utilisation_de_la_lampe_contactez_nous"
             android:textColor="#171616" />
 
@@ -94,6 +87,7 @@
             android:layout_width="378dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
+            android:layout_marginTop="-20dp"
             android:text="@string/nomView"
             android:textColor="#151515"
             android:textSize="20sp" />
@@ -182,6 +176,7 @@
             android:layout_width="376dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp"
             android:minHeight="48dp"
             android:text="@string/votre_message" />
 
@@ -190,6 +185,7 @@
             android:layout_width="188dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="100dp"
+            android:layout_marginBottom="5dp"
             android:text="@string/envoyer" />
 
         <LinearLayout
@@ -207,6 +203,7 @@
                 android:layout_weight="1"
                 android:background="#FFFFFF"
                 android:contentDescription="@string/fonctionnalit_s"
+                android:onClick="sendMessage23"
                 app:srcCompat="@drawable/iconeampoule"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -217,26 +214,29 @@
                 android:layout_weight="1"
                 android:background="#FFFFFF"
                 android:contentDescription="@string/energie"
+                android:onClick="sendMessage24"
                 app:srcCompat="@drawable/iconnegreeneco"
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageButton
                 android:id="@+id/imageButton7"
                 android:layout_width="100dp"
-                android:layout_height="116dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#FFFFFF"
                 android:contentDescription="@string/compte"
+                android:onClick="sendMessage25"
                 app:srcCompat="@drawable/iconecompte"
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageButton
                 android:id="@+id/imageButton8"
-                android:layout_width="96dp"
-                android:layout_height="121dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@color/purple"
                 android:contentDescription="@string/contact"
+                android:onClick="sendMessage26"
                 app:srcCompat="@drawable/contact"
                 tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>

@@ -144,20 +144,72 @@
             android:ems="10"
             android:inputType="date" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"/>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
 
         <CalendarView
             android:id="@+id/calendarView"
-            android:layout_width="wrap_content"
-            android:layout_height="292dp"
-            android:layout_marginStart="60dp" />
+            android:layout_width="297dp"
+            android:layout_height="208dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="20dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="227dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/fonctionnalit_s"
+                android:onClick="sendMessage15"
+                android:tag="1"
+                app:srcCompat="@drawable/iconeampoule"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/energie"
+                android:onClick="sendMessage16"
+                android:tag="2"
+                app:srcCompat="@drawable/iconnegreeneco"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton16"
+                android:layout_width="100dp"
+                android:layout_height="116dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/compte"
+                android:onClick="sendMessage17"
+                app:srcCompat="@drawable/iconecompte"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton17"
+                android:layout_width="124dp"
+                android:layout_height="121dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/contact"
+                android:onClick="sendMessage18"
+                app:srcCompat="@drawable/contact"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
 
 
     </LinearLayout>

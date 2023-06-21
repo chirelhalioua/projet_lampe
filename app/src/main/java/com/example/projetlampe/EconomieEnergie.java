@@ -18,10 +18,29 @@ public class EconomieEnergie extends AppCompatActivity {
 
     public void sendMessage6(View view) {
         Intent intent = new Intent(this, Connexion.class);
-        Button editText = (Button) findViewById(R.id.button6);
+        Button editText = findViewById(R.id.button6);
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
 
+    public void sendMessage15(View view) {
+        Intent intent = new Intent(this, Fonctionnalites.class);
+        startActivity(intent);
+    }
+
+    public void sendMessage16(View view) {
+        Intent intent = new Intent(this, EconomieEnergie.class);
+        startActivity(intent);
+    }
+
+    public void sendMessage17(View view) {
+        Intent intent = new Intent(this, CompteUser.class);
+        startActivity(intent);
+    }
+
+    public void sendMessage18(View view) {
+        Intent intent = new Intent(this, Contact.class);
+        startActivity(intent);
+    }
 }
