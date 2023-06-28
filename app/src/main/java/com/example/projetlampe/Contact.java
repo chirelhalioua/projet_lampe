@@ -4,6 +4,7 @@ import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 import android.content.Intent;
 import android.graphics.PorterDuff;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -26,7 +27,7 @@ public class Contact extends AppCompatActivity {
                 // Actions à effectuer lorsque le bouton est appuyé
 
                 // Changer la couleur de l'image
-                myImageButton.getDrawable().setColorFilter(getResources().getColor(R.color.purple), PorterDuff.Mode.MULTIPLY);
+                myImageButton.getDrawable().setColorFilter(ContextCompat.getColor(Contact.this, R.color.purple), PorterDuff.Mode.MULTIPLY);
 
                 // Redessiner l'image pour appliquer la couleur modifiée
                 myImageButton.invalidate();
