@@ -23,4 +23,24 @@ public class OnOffLampe extends AppCompatActivity {
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
+
+    public void sendMessage27(View view) {
+        Intent intent = new Intent(this, Fonctionnalites.class);
+        startActivity(intent);
+    }
+
+    public void sendMessage28(View view) {
+        Intent intent = new Intent(this, EconomieEnergie.class);
+        startActivity(intent);
+    }
+
+    public void sendMessage29(View view) {
+        Intent intent = new Intent(this, CompteUser.class);
+        startActivity(intent);
+    }
+
+    public void sendMessage30(View view) {
+        Intent intent = new Intent(this, Contact.class);
+        startActivity(intent);
+    }
 }

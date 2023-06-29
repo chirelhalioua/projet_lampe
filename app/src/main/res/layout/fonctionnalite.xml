@@ -84,6 +84,17 @@
             android:background="@android:color/darker_gray"
             android:layout_marginTop="8dp" />
 
+        <Button
+            android:id="@+id/set_color_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:text="@string/appliquer" />
+
+
         <TextView
             android:id="@+id/textView17"
             android:layout_width="match_parent"
@@ -110,7 +121,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="197dp"
+            android:layout_height="125dp"
             android:orientation="horizontal">
 
             <ImageButton
@@ -147,15 +158,9 @@
                 tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
 
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -212,6 +217,6 @@
                     tools:ignore="SpeakableTextPresentCheck" />
             </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
+
 
 </android.support.constraint.ConstraintLayout>

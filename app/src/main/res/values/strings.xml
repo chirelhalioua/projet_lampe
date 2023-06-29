@@ -56,5 +56,10 @@
     <string name="numEdit">Numéro</string>
     <string name="numView">Numéro* :</string>
     <string name="votre_profil_vue">Votre Profil</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="choisissezune_couleur">Choisissez une couleur</string>
+    <string name="lacouleur_choisie_est">La couleur choisie est :</string>
+    <string name="appliquer">Appliquer</string>
 
 </resources>
