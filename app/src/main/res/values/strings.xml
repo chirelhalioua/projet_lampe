@@ -61,5 +61,12 @@
     <string name="choisissezune_couleur">Choisissez une couleur</string>
     <string name="lacouleur_choisie_est">La couleur choisie est :</string>
     <string name="appliquer">Appliquer</string>
+    <string name="code">code</string>
+    <string name="code1">code</string>
+    <string name="mot_de_passe">Mot de passe :</string>
+    <string name="bienvenue">BIENVENUE</string>
+    <string name="inscriptionbutton">Inscription</string>
+    <string name="connexionbutton">Connexion</string>
+    <string name="code3">code</string>
 
 </resources>

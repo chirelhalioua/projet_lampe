@@ -1,18 +1,19 @@
 package com.example.projetlampe;
 
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * Classe représentant l'activité d'économie d'énergie.
  * Cette classe affiche les fonctionnalités liées à l'économie d'énergie de l'application : l'utilisateur pourra programmer l'allumage de la lampe, et voir combien de temps la lampe a été allumée par jour, si c'est élevé l'application lui enverra un message de réduire le temps de consommation.
  */
 public class EconomieEnergie extends AppCompatActivity {
+    public static final String EXTRA_MESSAGE = "com.example.projetlampe.EXTRA_MESSAGE";
 
     /**
      * Méthode appelée lors de la création de l'activité.

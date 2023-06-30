@@ -1,18 +1,20 @@
 package com.example.projetlampe;
 
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * Classe représentant l'activité d'inscription.
  * Cette classe permet aux utilisateurs de s'inscrire en fournissant leurs informations.
  */
 public class Inscription extends AppCompatActivity {
+
+    public static final String EXTRA_MESSAGE = "com.example.projetlampe.EXTRA_MESSAGE";
 
     /**
      * Méthode appelée lors de la création de l'activité.

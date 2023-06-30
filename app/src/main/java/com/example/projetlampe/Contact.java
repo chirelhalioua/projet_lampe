@@ -1,19 +1,18 @@
 package com.example.projetlampe;
-
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
-
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import static android.provider.AlarmClock.EXTRA_MESSAGE;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * Classe représentant l'activité de contact.
  * Cette classe affiche les informations de contact et les options de communication.
  */
 public class Contact extends AppCompatActivity {
-
+    public static final String EXTRA_MESSAGE = "com.example.projetlampe.EXTRA_MESSAGE";
 
     /**
      * Méthode appelée lors de la création de l'activité.

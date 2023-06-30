@@ -1,12 +1,10 @@
 package com.example.projetlampe;
 
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
-
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import androidx.appcompat.app.AppCompatActivity;
 
 
 /**
@@ -14,6 +12,7 @@ import android.widget.Button;
  * Cette classe permet d'allumer ou d'éteindre la lampe en utilisant différents boutons.
  */
 public class OnOffLampe extends AppCompatActivity {
+    public static final String EXTRA_MESSAGE = "com.example.projetlampe.EXTRA_MESSAGE";
 
     /**
      * Méthode appelée lors de la création de l'activité.
